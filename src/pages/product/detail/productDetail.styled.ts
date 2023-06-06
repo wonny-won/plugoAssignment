@@ -20,7 +20,7 @@ export const ProductDetailSection = styled.section`
     padding: 20px 0;
 `
 export const Category = styled.div`
-    width: 30px;
+    width: 80px;
     height: 18px;
     text-align: center;
     border: 1px solid black;
@@ -28,7 +28,7 @@ export const Category = styled.div`
     font-size: 15px;
     font-weight: 800;
     color:#fff;
-    padding: 0 10px; 
+    padding: 0 2px; 
     margin-bottom: 8px;
 `
 export const Product = styled.div`

@@ -43,7 +43,7 @@ export const Title = styled.h3`
     font-weight: 600;
 `
 export const ButtonWrap = styled.div`
-    padding-top: 60px;
+    padding: 60px 0;
 `
 export const Button = styled.button`
     width: 300px;

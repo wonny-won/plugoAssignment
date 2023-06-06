@@ -7,7 +7,7 @@ interface InputsProps {
 }   
 
 export default function Inputs(props:InputsProps){
-    const optionArr = ['Accessory','Top','Bottom',]
+    const optionArr = ['카테고리를 선택해주세요','Accessory','Top','Bottom',]
     return(
         <>
             <S.Container>

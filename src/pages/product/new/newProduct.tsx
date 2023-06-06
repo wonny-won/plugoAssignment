@@ -22,7 +22,7 @@ export default function NewProduct(){
                     <h2 style={{display:'none'}}>상품 이미지 등록</h2>
                     <S.MiniSection>
                         <Carousel Img={data?.productImg}/>
-                        <Inputs title={'상품 이미지'} input={'input'} id={'productImg'} onChange={onChange}/>
+                        <Inputs title={'상품 이미지 URL'} input={'input'} id={'productImg'} onChange={onChange}/>
                     </S.MiniSection>
                 </S.ImgSection>
                 <S.DetilSection>

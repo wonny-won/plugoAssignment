@@ -38,9 +38,10 @@ export const A = styled.a`
     color: black;
 `
 export const User = styled.div`
-    width: 100px;
+    width: 150px;
     display: flex;
     justify-content: space-around;
+    font-size: 15px;
 `
 export const Search = styled(SearchOutlined)`
     font-size: 20px;

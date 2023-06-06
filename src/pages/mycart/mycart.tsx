@@ -12,22 +12,22 @@ export default function MyCart(){
 
     return(
         <S.Container>
+            <S.MyCart>MY CART</S.MyCart>
         {
-            cart.map(()=>(
-                <S.ContentsWrap>
+            cart.map((item:any)=>(
+                <S.ContentsWrap key={item.id}>
                     <S.Contents>
                     <div><S.CheckBox type="checkBox"/></div>
-                    <S.Img src={cart?.[0]?.productImg} />
+                    <S.Img src={item.productImg} />
                     <div>
                     <S.ProductInfoWrap>
-                        <S.Categgory>{cart?.[0]?.category}</S.Categgory>
-                        <S.Title>{cart?.[0]?.product}</S.Title>
-                        <div>Won {cart?.[0]?.price}</div>
+                        <S.Categgory>{item.category}</S.Categgory>
+                        <S.Title>{item.product}</S.Title>
+                        <div>Won {item.price}</div>
                     </S.ProductInfoWrap>
-
                     </div>
                     </S.Contents>
-                    <div> <DeleteOutlined /> </div>
+                    <div> <S.Delete /> </div>
                 </S.ContentsWrap>
             ))
         }

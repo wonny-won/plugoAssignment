@@ -125,6 +125,14 @@
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Bottom"
+    },
+    {
+        "id": "17",
+        "product": "PLUGO 17 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Accessory"
     }
 
 ]

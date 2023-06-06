@@ -16,6 +16,7 @@ export default function Header(){
         <S.User>
         <S.Search />
         <S.My />
+        <div><S.A href='/product/new'>admin</S.A></div>
         </S.User>
         </S.Container>
     )

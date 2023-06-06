@@ -3,11 +3,11 @@ import axios from "axios"
 import { useRouter } from "commons/hooks/useRouter";
 
 export interface Data {
-    data:{
-        product?: string;
-        price?: string;
-        productDetail?: string;
-    }
+    product: string;
+    price: string;
+    category: string;
+    productDetail: string;
+    productImg?: string;
 }
 
 export const useCreateProductMutation = (url:string,data:Data|{})=>{
@@ -16,7 +16,7 @@ export const useCreateProductMutation = (url:string,data:Data|{})=>{
         mutationKey:['createProduct'],
         mutationFn: async()=> await axios.post(url,data),
         onSuccess: (data)=>{
-            if(data)router('/product/list')()
+            if(data)router('/')()
             return data
         }
     })
