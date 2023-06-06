@@ -8,15 +8,14 @@ export default function Header(){
         </div>
         <div>
         <S.MenuWrap>
-            <S.Li>HOME</S.Li>
-            <S.Li><S.A href={'/'}>ALL PRODUCT</S.A></S.Li>
-            <S.Li><S.A href={'/mycart'}>MY</S.A></S.Li>
+            <S.Li><S.A href='/'>ALL PRODUCT</S.A></S.Li>
+            <S.Li><S.A href='/mycart'>MY CART</S.A></S.Li>
+            <S.Li><S.A href='/product/new'>ADMIN</S.A></S.Li>
         </S.MenuWrap>
         </div>
         <S.User>
         <S.Search />
         <S.My />
-        <div><S.A href='/product/new'>admin</S.A></div>
         </S.User>
         </S.Container>
     )

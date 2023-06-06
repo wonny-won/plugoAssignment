@@ -16,7 +16,7 @@ export const Img = styled.img`
     height: 50px;
 `
 export const MenuWrap = styled.ul`
-    width: 320px;
+    width: 370px;
     display: flex;
     justify-content: space-around;
     font-size: 18px;
@@ -38,7 +38,7 @@ export const A = styled.a`
     color: black;
 `
 export const User = styled.div`
-    width: 150px;
+    width: 120px;
     display: flex;
     justify-content: space-around;
     font-size: 15px;
