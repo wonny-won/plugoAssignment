@@ -1,20 +1,97 @@
 [
     {
         "id": "1",
-        "product": "맥북",
-        "price": "2,000,000",
-        "detail": "조하용~"
+        "product": "PLUGO 01 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
     },
     {
         "id": "2",
-        "product": "애플 마우스",
-        "price": "100,000",
-        "detail": "별로 안조하용~"
+        "product": "PLUGO 02 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
     },
     {
         "id": "3",
-        "product": "에어팟",
-        "price": "190,000",
-        "detail": "노이즈캔슬링 조하용~"
+        "product": "PLUGO 03 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
+    },    {
+        "id": "4",
+        "product": "PLUGO 04 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
+    },
+    {
+        "id": "5",
+        "product": "PLUGO 05 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
+    },
+    {
+        "id": "6",
+        "product": "PLUGO 06 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
+    },
+    {
+        "id": "7",
+        "product": "PLUGO 07 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
+    },
+    {
+        "id": "8",
+        "product": "PLUGO 08 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
+    },
+    {
+        "id": "9",
+        "product": "PLUGO 09 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
+    },
+    {
+        "id": "10",
+        "product": "PLUGO 10 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
+    },
+    {
+        "id": "11",
+        "product": "PLUGO 11 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
+    },
+    {
+        "id": "12",
+        "product": "PLUGO 12 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Top"
     }
 ]

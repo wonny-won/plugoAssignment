@@ -14,7 +14,7 @@ export default function Carousel(props:any){
         <S.Container>
         <Slider {...settings}>
             {
-                props.Img===undefined ? <div>없어</div> : <S.Img src={props.Img}/>
+                props.Img===undefined ? <S.Img src={require('../../../assets/noImg.gif')}/> : <S.Img src={props.Img}/>
             }
         </Slider>
         </S.Container>

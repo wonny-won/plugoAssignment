@@ -26,7 +26,10 @@ export const MiniSection = styled.section`
 `
 export const DetailMiniSection = styled(MiniSection)`
     height: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
+
 `
 export const ImgCarousel = styled.div`
     width: 90%;

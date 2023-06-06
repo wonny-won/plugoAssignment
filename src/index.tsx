@@ -10,6 +10,7 @@ import { QueryClient,QueryClientProvider } from '@tanstack/react-query';
 import ProductList from 'pages/product/list/productList';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"
+import ProductDetail from 'pages/product/detail/productDetail';
 
 if (process.env.NODE_ENV === "development") {
   worker.start();
@@ -25,6 +26,7 @@ root.render(
         <Route path="/" element={<App/>}/>
         <Route path="/product/new" element={<NewProduct/>}/>
         <Route path="/product/list" element={<ProductList/>}/>
+        <Route path="/product/detail/:id" element={<ProductDetail/>}/>
       </Routes>
 	  </BrowserRouter>
     </QueryClientProvider>

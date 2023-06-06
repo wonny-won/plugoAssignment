@@ -4,7 +4,7 @@ export const Container = styled.div`
     width: 90%;
     height: 520px;
     border: 1px solid gray;
-    margin: 0;
+    margin-bottom: 20px;
 `
 export const Img = styled.img`
     object-fit: contain;
