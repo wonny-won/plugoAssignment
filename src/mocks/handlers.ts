@@ -13,5 +13,16 @@ export const handlers = [
     rest.get('/product/list', (_, res, ctx) => {
       return res(ctx.status(200), ctx.json(product));
   }),
+  
+    // get product detail - 상품 디테일 가지고 오기
+    rest.get('/product/detail/:id', (req, res, ctx) => {
+      const productId = req.params
+      const productData = product.filter((item)=> item.id===productId.id)
+      if(productData.length===0){
+        return res(ctx.status(200), ctx.json({error:'존재하지 않는 게시글 입니다.'}))
+      } else { 
+        return res(ctx.json({productData}))
+      }
+  }),
 
 ]
