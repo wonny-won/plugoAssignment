@@ -2,7 +2,7 @@ import * as S from './inputs.styled'
 interface InputsProps {
     input: string;
     title: string;
-    onChange?: (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void;
+    onChange?: (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => void;
     id?: string
 }   
 
@@ -16,7 +16,7 @@ export default function Inputs(props:InputsProps){
                 { props.input==='textArea' && <S.Textarea id ={props.id} onChange={props.onChange}/> }
                 {
                     props.input==='select' && 
-                        <S.Category>
+                        <S.Category id ={props.id} onChange={props.onChange}>
                         { optionArr.map((item,index)=>(
                                 <option key={index}>{item}</option>
                             )) }

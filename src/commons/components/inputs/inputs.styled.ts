@@ -26,11 +26,12 @@ export const Textarea = styled.textarea`
     font-size: 20px;
     font-weight: 400;
     padding: 3px;
-
+    border-radius: 4px;
 `
 export const Category = styled.select`
     width: 82%;
     font-size: 20px;
     border: 2px solid #ddd;
     padding: 5px;
+    border-radius: 4px;
 `

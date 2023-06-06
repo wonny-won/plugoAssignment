@@ -2,11 +2,11 @@ import Inputs from 'commons/components/inputs/inputs'
 import * as S from './newProduct.styled'
 import { useOnChange } from 'commons/hooks/useOnChange'
 import { useSubmit } from './newFn/useSubmit' 
+import Carousel from 'commons/components/carousel/carousel'
 
 export default function NewProduct(){
     const {data,onChange} = useOnChange()
     const onClickSubmit = useSubmit(data)
-    
     return(
         <S.Container>
             <head>
@@ -19,7 +19,9 @@ export default function NewProduct(){
                 <S.ImgSection>
                     <h2 style={{display:'none'}}>상품 이미지 등록</h2>
                     <S.MiniSection>
-                        <S.ImgCarousel>이미지 캐러셀 들어올거임</S.ImgCarousel>
+                        <S.ImgCarousel>
+                            <Carousel />
+                        </S.ImgCarousel>
                         <input type='text'/>
                     </S.MiniSection>
                 </S.ImgSection>
@@ -28,14 +30,14 @@ export default function NewProduct(){
                     <S.DetailMiniSection>
                         <Inputs title={'상품명'} input={'input'} id={'product'} onChange={onChange}/>
                         <Inputs title={'상품가격'} input={'input'} id={'price'} onChange={onChange}/>
-                        <Inputs title={'카테고리'} input={'select'} />
+                        <Inputs title={'카테고리'} input={'select'} id={'category'} onChange={onChange}/>
                         <Inputs title={'상세설명'} input={'textArea'} id={'productDetail'} onChange={onChange}/>
                     </S.DetailMiniSection>
                 </S.DetilSection>
             </S.Contents>
             <div>
-                <button onClick={onClickSubmit}>상품등록</button>
-                <button>등록취소</button>
+                <S.Button onClick={onClickSubmit}>상품등록</S.Button>
+                <S.Button>등록취소</S.Button>
             </div>
         </S.Container>
     )

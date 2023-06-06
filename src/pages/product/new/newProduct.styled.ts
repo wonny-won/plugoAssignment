@@ -36,3 +36,18 @@ export const Title = styled.h3`
     margin: 5px 0;
     font-weight: 600;
 `
+export const Button = styled.button`
+    width: 300px;
+    padding: 15px 0;
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 17px;
+    font-weight: 800;
+    &:hover {
+        background-color: black;
+        color: #fff;
+        cursor: pointer;
+    }
+`

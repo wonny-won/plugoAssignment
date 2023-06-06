@@ -8,6 +8,8 @@ import NewProduct from 'pages/product/new/newProduct';
 import { worker } from 'mocks/browsers';
 import { QueryClient,QueryClientProvider } from '@tanstack/react-query';
 import ProductList from 'pages/product/list/productList';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css"
 
 if (process.env.NODE_ENV === "development") {
   worker.start();
