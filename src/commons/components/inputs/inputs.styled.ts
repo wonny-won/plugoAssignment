@@ -12,7 +12,7 @@ export const Title = styled.h3`
 export const Input = styled.input`
     width: 80%;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     border: none;
     border-bottom: 2px solid #ddd;
     outline: none;
@@ -24,7 +24,7 @@ export const Textarea = styled.textarea`
     border: 2px solid #ddd;
     outline: none;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     padding: 3px;
 
 `
