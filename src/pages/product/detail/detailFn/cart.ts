@@ -4,13 +4,13 @@ interface Data {
 
 export const onClickCart = (product:Data) => () => {
     if(typeof window!==undefined){
-    const baskets = JSON.parse(localStorage.getItem("cart") ?? "[]");
-    const temp = baskets.filter((item:any) => item.id === product.id);
+    const cart = JSON.parse(localStorage.getItem("cart") ?? "[]");
+    const temp = cart.filter((item:any) => item.id === product.id);
       if (temp.length === 1) {
         alert("이미 담으신 물품입니다");
         return;
       }
-    baskets.push(product);
-    localStorage.setItem("cart", JSON.stringify(baskets));
+      cart.push(product);
+    localStorage.setItem("cart", JSON.stringify(cart));
     }
   };

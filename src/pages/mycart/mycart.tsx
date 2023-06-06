@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import * as S from './mycart.styled'
 import { DeleteOutlined } from '@ant-design/icons'
+import { deleteItem } from "./myCartFn/deleteItem";
 
 export default function MyCart(){
     const [cart, setCart] = useState<any>([]);
     useEffect(()=>{
         const cart = JSON.parse(localStorage.getItem("cart") || "[]");
         setCart(cart);
-    },[])
-    console.log(cart)      
+    },[cart])
 
     return(
         <S.Container>
@@ -27,7 +27,7 @@ export default function MyCart(){
                     </S.ProductInfoWrap>
                     </div>
                     </S.Contents>
-                    <div> <S.Delete /> </div>
+                    <div onClick={deleteItem(item.id)}> <S.Delete /> </div>
                 </S.ContentsWrap>
             ))
         }

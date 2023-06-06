@@ -3,8 +3,6 @@ import * as S from './newProduct.styled'
 import { useOnChange } from 'commons/hooks/useOnChange'
 import { useSubmit } from './newFn/useSubmit' 
 import Carousel from 'commons/components/carousel/carousel'
-import { useUploadFile } from 'commons/hooks/useUploadFile'
-
 
 export default function NewProduct(){
     const {data,onChange} = useOnChange()
