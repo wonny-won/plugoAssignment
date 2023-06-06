@@ -5,7 +5,6 @@ import * as S from './productList.styled'
 
 export default function ProductList(){
     const fetchData = useFetchtProductList('/product/list')
-    console.log(fetchData.data)
     return(
         <S.Container>
         <head>

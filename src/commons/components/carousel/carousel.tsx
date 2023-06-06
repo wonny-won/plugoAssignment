@@ -9,7 +9,6 @@ export default function Carousel(props:any){
       slidesToShow: 1,
       slidesToScroll: 1
     };
-    console.log(props.Img)
     return(
         <S.Container>
         <Slider {...settings}>
