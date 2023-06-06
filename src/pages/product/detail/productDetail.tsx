@@ -29,7 +29,7 @@ export default function ProductDetail(){
                             <S.Price>Won {data?.price}</S.Price>
                     </S.ProductDetailSection>
                     <h2 style={{display:'none'}}>장바구니 추가 하기</h2>
-                        <S.CartBt onClick={onClickCart(data)}>add cart</S.CartBt>
+                        <S.CartBt onClick={onClickCart(data)}><S.Cart/> &nbsp; add cart</S.CartBt>
                     <h2 style={{display:'none'}}>상품 상세설명</h2>
                     <section>
                         <S.Detail>{data?.productDetail}</S.Detail>

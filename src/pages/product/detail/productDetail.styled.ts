@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ShoppingCartOutlined } from '@ant-design/icons'
 
 export const Container = styled.section`
     width: 75%;
@@ -34,6 +35,7 @@ export const Category = styled.div`
 export const Product = styled.div`
     color: #312E2ECC;
     font-size: 20px;
+    font-weight: 600;
     margin: 8px 0;
 `
 export const Price = styled.div`
@@ -50,9 +52,12 @@ export const CartBt = styled.button`
     font-size: 15px;
     font-weight: 700;
     border-radius: 4px;
-    &:hhover{
+    &:hover{
         cursor: pointer;
     }
+`
+export const Cart = styled(ShoppingCartOutlined)`
+    font-size: 18px;
 `
 export const Detail = styled.div`
     margin: 20px 0;

@@ -10,8 +10,6 @@ export default function Layout(props:{
     console.log(params.pathname)
     const VIEW_NAV = ['/']
     const includesNav = VIEW_NAV.includes(params.pathname)
-
-
     return(
         <>
         <Header />
@@ -22,6 +20,7 @@ export default function Layout(props:{
         </>
     )
 }
+
 const Wrap = styled.div`
     width: 100%;
     display: flex;

@@ -8,6 +8,12 @@ export default function ProductList(){
     console.log(fetchData.data)
     return(
         <S.Container>
+        <head>
+          <title>Plugo | 상품 디테일</title>
+          <meta name="description" content="세계 최강 플루고의 상품을 만나보세요!" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </head>
+        <h1 style={{display:'none'}}>상품 리스트</h1>
         {
             fetchData?.data?.map((item:MapItem)=>(
                     <ProductListCard data={item} />
