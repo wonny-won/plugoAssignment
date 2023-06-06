@@ -11,6 +11,7 @@ import ProductList from 'pages/product/list/productList';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"
 import ProductDetail from 'pages/product/detail/productDetail';
+import MyCart from 'pages/mycart/mycart';
 
 if (process.env.NODE_ENV === "development") {
   worker.start();
@@ -27,6 +28,7 @@ root.render(
         <Route path="/product/new" element={<NewProduct/>}/>
         <Route path="/product/list" element={<ProductList/>}/>
         <Route path="/product/detail/:id" element={<ProductDetail/>}/>
+        <Route path="/mycart" element={<MyCart/>}/>
       </Routes>
 	  </BrowserRouter>
     </QueryClientProvider>

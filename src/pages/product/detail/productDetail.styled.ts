@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    width: 80%;
+    width: 75%;
     display: flex;
     justify-content: space-between;
     margin: auto;
 `
 export const Img = styled.img`
-    width: 55%;
+    width: 50%;
     height: 600px;
 `
 export const RightSection = styled.div`
-    width: 40%;
+    width: 45%;
 `
 export const ProductDetailSection = styled.section`
     width: 100%;
@@ -50,6 +50,9 @@ export const CartBt = styled.button`
     font-size: 15px;
     font-weight: 700;
     border-radius: 4px;
+    &:hhover{
+        cursor: pointer;
+    }
 `
 export const Detail = styled.div`
     margin: 20px 0;
@@ -58,4 +61,5 @@ export const Detail = styled.div`
     width: 91%;
     height: 150px;
     padding: 20px;
+    overflow: scroll;
 `
