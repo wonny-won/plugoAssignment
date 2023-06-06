@@ -1,5 +1,5 @@
+import Inputs from 'commons/components/inputs/inputs'
 import * as S from './newProduct.styled'
-import Inputs from '../../../commons/components/inputs/inputs'
 
 export default function NewProduct(){
     return(

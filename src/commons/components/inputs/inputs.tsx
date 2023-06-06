@@ -1,5 +1,10 @@
 import * as S from './inputs.styled'
-export default function Inputs(props){
+interface InputsProps {
+    input: string;
+    title: string;
+}
+
+export default function Inputs(props:InputsProps){
     const optionArr = ['Accessory','Top','Bottom',]
     return(
         <>
