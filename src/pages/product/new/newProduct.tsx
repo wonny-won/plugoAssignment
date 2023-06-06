@@ -3,8 +3,10 @@ import * as S from './newProduct.styled'
 import { useOnChange } from 'commons/hooks/useOnChange'
 import { useSubmit } from './newFn/useSubmit' 
 import Carousel from 'commons/components/carousel/carousel'
+import { useAuth } from 'commons/hooks/useAuth'
 
 export default function NewProduct(){
+    useAuth()
     const {data,onChange} = useOnChange()
     const onClickSubmit = useSubmit(data)
     return(
