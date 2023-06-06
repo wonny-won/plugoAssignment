@@ -61,4 +61,7 @@ export const CheckBox = styled.input`
 export const Delete = styled(DeleteOutlined)`
     font-size: 20px;
     margin-top: 10px;
+    &:hover {
+        cursor: pointer;
+    }
 `

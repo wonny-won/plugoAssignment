@@ -8,7 +8,7 @@ export default function Layout(props:{
 }){
     const params = useLocation()
     console.log(params.pathname)
-    const VIEW_NAV = ['/']
+    const VIEW_NAV = ['/','/category/Top','/category/Bottom','/category/Accessory']
     const includesNav = VIEW_NAV.includes(params.pathname)
     return(
         <>

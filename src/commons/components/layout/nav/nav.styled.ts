@@ -18,5 +18,4 @@ export const Li = styled.li`
         font-size: 20px;
         transition: all 0.7s;
     }
-
 `

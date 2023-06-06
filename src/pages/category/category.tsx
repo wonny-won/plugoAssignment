@@ -1,11 +1,14 @@
 import ProductListCard from "commons/components/card/listCard"
-import { useFetchtProductList } from "./listFn/useFetchListQuery"
-import { MapItem } from "./productList.type"
-import * as S from './productList.styled'
+import { useFetchtProductList } from "pages/product/list/listFn/useFetchListQuery"
+import * as S from 'pages/product/list/productList.styled'
+import { MapItem } from "pages/product/list/productList.type"
+import { useParams } from "react-router-dom"
+import { useFetchCategoryItem } from "./categoryFn/fetchCategoryItem"
 
-export default function ProductList(){
+export default function Category(props:any){
+    const param = useParams()
     const fetchData = useFetchtProductList('/product/list')
-    console.log(fetchData.data)
+    const fetchDatas = useFetchCategoryItem(param)
     return(
         <S.Container>
         <head>
@@ -15,7 +18,7 @@ export default function ProductList(){
         </head>
         <h1 style={{display:'none'}}>상품 리스트</h1>
         {
-            fetchData?.data?.map((item:MapItem)=>(
+            fetchDatas.map((item:MapItem)=>(
                     <ProductListCard data={item} />
             ))
         }
