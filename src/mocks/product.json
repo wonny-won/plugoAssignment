@@ -60,12 +60,12 @@
         "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Bottom"
+        "category": "Top"
     },
     {
         "id": "9",
         "product": "PLUGO 09 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Bottom"
@@ -73,7 +73,7 @@
     {
         "id": "10",
         "product": "PLUGO 10 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Bottom"
@@ -81,7 +81,7 @@
     {
         "id": "11",
         "product": "PLUGO 11 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Bottom"
@@ -89,7 +89,7 @@
     {
         "id": "12",
         "product": "PLUGO 12 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Bottom"
@@ -97,7 +97,7 @@
     {
         "id": "13",
         "product": "PLUGO 13 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Bottom"
@@ -105,7 +105,7 @@
     {
         "id": "14",
         "product": "PLUGO 14 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Bottom"
@@ -113,7 +113,7 @@
     {
         "id": "15",
         "product": "PLUGO 15 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Bottom"
@@ -121,7 +121,7 @@
     {
         "id": "16",
         "product": "PLUGO 16 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Bottom"
@@ -129,7 +129,31 @@
     {
         "id": "17",
         "product": "PLUGO 17 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Latte_2_1673836797880.jpeg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Accessory"
+    },
+    {
+        "id": "18",
+        "product": "PLUGO 16 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Latte_2_1673836797880.jpeg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Accessory"
+    },
+    {
+        "id": "19",
+        "product": "PLUGO 16 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Latte_2_1673836797880.jpeg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Accessory"
+    },
+    {
+        "id": "20",
+        "product": "PLUGO 16 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Latte_2_1673836797880.jpeg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Accessory"
