@@ -2,7 +2,6 @@ import { useLocation } from "react-router-dom"
 import Header from "./header/header"
 import NavBar from "./nav/nav"
 import styled from "styled-components"
-import { useEffect } from "react"
 
 export default function Layout(props:{
     children: JSX.Element

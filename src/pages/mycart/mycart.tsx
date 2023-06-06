@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import * as S from './mycart.styled'
-import { DeleteOutlined } from '@ant-design/icons'
 import { deleteItem } from "./myCartFn/deleteItem";
 
 export default function MyCart(){
