@@ -1,4 +1,5 @@
 import Slider from 'react-slick';
+import * as S from './carousel.styled'
 
 export default function Carousel(props:any){
     const settings = {
@@ -8,13 +9,14 @@ export default function Carousel(props:any){
       slidesToShow: 1,
       slidesToScroll: 1
     };
+    console.log(props.Img)
     return(
-        <>
+        <S.Container>
         <Slider {...settings}>
-            <div>
-            1
-            </div>
+            {
+                props.Img===undefined ? <div>없어</div> : <S.Img src={props.Img}/>
+            }
         </Slider>
-        </>
+        </S.Container>
     )
 }

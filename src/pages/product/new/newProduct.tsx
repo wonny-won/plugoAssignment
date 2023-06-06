@@ -3,6 +3,7 @@ import * as S from './newProduct.styled'
 import { useOnChange } from 'commons/hooks/useOnChange'
 import { useSubmit } from './newFn/useSubmit' 
 import Carousel from 'commons/components/carousel/carousel'
+import { useUploadFile } from 'commons/hooks/useUploadFile'
 
 export default function NewProduct(){
     const {data,onChange} = useOnChange()
@@ -19,10 +20,8 @@ export default function NewProduct(){
                 <S.ImgSection>
                     <h2 style={{display:'none'}}>상품 이미지 등록</h2>
                     <S.MiniSection>
-                        <S.ImgCarousel>
-                            <Carousel />
-                        </S.ImgCarousel>
-                        <input type='text'/>
+                        <Carousel Img={data?.productImg}/>
+                        <Inputs title={'상품 이미지'} input={'input'} id={'productImg'} onChange={onChange}/>
                     </S.MiniSection>
                 </S.ImgSection>
                 <S.DetilSection>
@@ -35,10 +34,10 @@ export default function NewProduct(){
                     </S.DetailMiniSection>
                 </S.DetilSection>
             </S.Contents>
-            <div>
+            <S.ButtonWrap>
                 <S.Button onClick={onClickSubmit}>상품등록</S.Button>
                 <S.Button>등록취소</S.Button>
-            </div>
+            </S.ButtonWrap>
         </S.Container>
     )
 }

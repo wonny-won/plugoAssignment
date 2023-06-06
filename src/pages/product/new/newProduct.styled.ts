@@ -12,15 +12,17 @@ export const Contents = styled.section`
 `
 export const ImgSection = styled.div`
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `
 export const DetilSection = styled.div`
     width: 35%;
     height: 600px;
 `
 export const MiniSection = styled.section`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 90%;
 `
 export const DetailMiniSection = styled(MiniSection)`
     height: 100%;
@@ -30,18 +32,21 @@ export const ImgCarousel = styled.div`
     width: 90%;
     height: 500px;
     border: 1px solid gray;
+    margin: 0;
 `
 export const Title = styled.h3`
     font-size: 15px;
     margin: 5px 0;
     font-weight: 600;
 `
+export const ButtonWrap = styled.div`
+    padding-top: 60px;
+`
 export const Button = styled.button`
     width: 300px;
     padding: 15px 0;
     margin: 0 10px;
-    border: 2px solid black;
-    border-radius: 4px;
+    border: 1.5px solid black;
     background-color: #fff;
     font-size: 17px;
     font-weight: 800;
