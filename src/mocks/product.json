@@ -60,7 +60,7 @@
         "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Top"
+        "category": "Bottom"
     },
     {
         "id": "9",
@@ -68,7 +68,7 @@
         "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Top"
+        "category": "Bottom"
     },
     {
         "id": "10",
@@ -76,7 +76,7 @@
         "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Top"
+        "category": "Bottom"
     },
     {
         "id": "11",
@@ -84,7 +84,7 @@
         "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Top"
+        "category": "Bottom"
     },
     {
         "id": "12",
@@ -92,6 +92,39 @@
         "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Top"
+        "category": "Bottom"
+    },
+    {
+        "id": "13",
+        "product": "PLUGO 13 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Bottom"
+    },
+    {
+        "id": "14",
+        "product": "PLUGO 14 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Bottom"
+    },
+    {
+        "id": "15",
+        "product": "PLUGO 15 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Bottom"
+    },
+    {
+        "id": "16",
+        "product": "PLUGO 16 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Bottom"
     }
+
 ]
