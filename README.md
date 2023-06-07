@@ -39,7 +39,7 @@
     - **페이지 단에서 필요한 함수들을 hooks로 분리**해 유지 보수가 보다 쉽도록 개발했습니다.
     → 함수의 보수가 필요한 경우 해당 파일만 찾아 보수하면 되도록 개발
         
-        ![스크린샷 2023-06-07 오후 4.52.05.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd0bf54b-b94d-4263-aa91-7a1972122497/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-06-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_4.52.05.png)
+        <img width="801" alt="스크린샷 2023-06-07 오후 4 52 05" src="https://github.com/wonny-won/plugoAssignment/assets/97152701/4c087e8e-8196-480e-82d9-9e7eeac875c6">
         
 
 - **성능 고려**
@@ -58,28 +58,23 @@
     - 분기 함수는 hooks로 분리해 추후 로그인이 구현 되어도 보수에 쉽도록 개발했습니다.
 - 상품 등록시 [상품명, 가격, 카테고리, 디테일] 에 내용이 비워져 있으면 submit 되지 않도록 **검증**
 
-![스크린샷 2023-06-07 오후 5.11.32.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/851c8160-7a30-48d6-901e-24df8a8758b5/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-06-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.11.32.png)
-
-![스크린샷 2023-06-07 오후 5.10.59.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/818f7dc9-d8b1-4546-8196-c122706a955e/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-06-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.10.59.png)
+<img width="708" alt="스크린샷 2023-06-07 오후 6 02 36" src="https://github.com/wonny-won/plugoAssignment/assets/97152701/42fc464f-1577-43c9-9e6e-66a0aece495b">
 
 1. **상품 리스트 / 카테고리 페이지**
 - Nav바 메뉴 선택시 해당 카테고리 상품만 보이도록 구현
 - 모든 상품 노출
 
-![스크린샷 2023-06-07 오후 5.08.48.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f1e1ccd-1be5-4be5-9f6a-907de1462a8c/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-06-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.08.48.png)
-
-![스크린샷 2023-06-07 오후 5.09.15.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9b8fd2df-7886-4dc0-bb0f-be8d9694d679/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-06-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.09.15.png)
+<img width="724" alt="스크린샷 2023-06-07 오후 6 02 54" src="https://github.com/wonny-won/plugoAssignment/assets/97152701/be129cae-ee18-4497-82e7-433481b74af6">
 
 1. **상품 디테일 페이지**
 - 비회원 장바구니에 담기기능 (localStorage 사용)
 
-![스크린샷 2023-06-07 오후 5.09.51.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/56702aec-34c1-4b2c-aea6-7f865e4904c2/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-06-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.09.51.png)
+<img width="869" alt="스크린샷 2023-06-07 오후 6 03 23" src="https://github.com/wonny-won/plugoAssignment/assets/97152701/14fad24a-af01-4f46-a57e-f438463ee0e0">
 
 1. **장바구니 페이지**
 - 장바구니에서 삭제하기 기능
 
-![스크린샷 2023-06-07 오후 5.10.22.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ab396a69-7d02-430a-b59c-f0404ea68347/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-06-07_%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE_5.10.22.png)
-
+<img width="836" alt="스크린샷 2023-06-07 오후 6 03 45" src="https://github.com/wonny-won/plugoAssignment/assets/97152701/77ef9681-e8d2-4380-969f-0897fd8453c2">
 
 
 # 🏹 Trouble Shooting & 과제소감
