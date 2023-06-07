@@ -16,7 +16,7 @@ export default function ProductListCard(props:ProductListCardProps){
     const router = useRouter()
     return(
         <S.Container key={props.data?.id} onClick={router(`/product/detail/${props.data?.id}`)}>
-            <S.Img src={props.data?.productImg} />
+            <S.Img src={props.data?.productImg ? props.data?.productImg : require('../../../assets/noImg.gif')} />
             <S.productInfoWrap>
                 <S.TitleWrap>
                     <S.ProductName>{props.data?.product}</S.ProductName>
