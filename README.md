@@ -1,12 +1,3 @@
-# ✅ Result
-
-- ver.1
-    
-    배포된 주소: 인스턴스 꺼둠
-    
-    깃허브 주소: https://github.com/HuggieDev/FE_Huggie  →  private
-    
-
 <aside>
 📌 **상품 등록 페이지 admin 코드
 → plugoAdmin**
