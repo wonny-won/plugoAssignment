@@ -22,7 +22,8 @@
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Top"
-    },    {
+    },    
+    {
         "id": "4",
         "product": "PLUGO 04 - Color",
         "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
@@ -33,66 +34,67 @@
     {
         "id": "5",
         "product": "PLUGO 05 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Top"
+        "category": "Bottom"
     },
     {
         "id": "6",
         "product": "PLUGO 06 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Top"
+        "category": "Bottom"
     },
     {
         "id": "7",
         "product": "PLUGO 07 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Top"
+        "category": "Bottom"
     },
     {
         "id": "8",
         "product": "PLUGO 08 - Color",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
+        "productDetail": "사이즈 하나예요",
+        "price": "120,000",
+        "category": "Bottom"
+    },
+
+    {
+        "id": "9",
+        "product": "PLUGO 09 - Color",
         "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
         "category": "Top"
     },
     {
-        "id": "9",
-        "product": "PLUGO 09 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
-        "productDetail": "사이즈 하나예요",
-        "price": "120,000",
-        "category": "Bottom"
-    },
-    {
         "id": "10",
         "product": "PLUGO 10 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Bottom"
+        "category": "Top"
     },
     {
         "id": "11",
         "product": "PLUGO 11 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Bottom"
+        "category": "Top"
     },
     {
         "id": "12",
         "product": "PLUGO 12 - Color",
-        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Caramel_1681200434693.jpg",
+        "productImg": "https://d2kchovjbwl1tk.cloudfront.net/vendor/19/product/Dongker_1681457679589.jpg",
         "productDetail": "사이즈 하나예요",
         "price": "120,000",
-        "category": "Bottom"
+        "category": "Top"
     },
     {
         "id": "13",
