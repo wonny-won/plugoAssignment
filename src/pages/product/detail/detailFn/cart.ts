@@ -12,5 +12,6 @@ export const onClickCart = (product:Data) => () => {
       }
       cart.push(product);
     localStorage.setItem("cart", JSON.stringify(cart));
+    alert('카트에 상품이 담겼습니다!')
     }
   };

@@ -1,5 +1,4 @@
 import ProductListCard from "commons/components/card/listCard"
-import { useFetchtProductList } from "pages/product/list/listFn/useFetchListQuery"
 import * as S from 'pages/product/list/productList.styled'
 import { MapItem } from "pages/product/list/productList.type"
 import { useParams } from "react-router-dom"
@@ -7,7 +6,6 @@ import { useFetchCategoryItem } from "./categoryFn/fetchCategoryItem"
 
 export default function Category(props:any){
     const param = useParams()
-    const fetchData = useFetchtProductList('/product/list')
     const fetchDatas = useFetchCategoryItem(param)
     return(
         <S.Container>

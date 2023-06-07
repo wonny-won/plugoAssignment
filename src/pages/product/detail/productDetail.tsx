@@ -17,7 +17,7 @@ export default function ProductDetail(){
             <h1 style={{display:'none'}}>상품 디테일</h1>
             <S.Container>
                 <h2 style={{display:'none'}}>상품 이미지</h2>
-                <S.Img src={data?.productImg} />
+                <S.Img src={data?.productImg ? data?.productImg : require('../../../assets/noImg.gif')} />
                 <S.RightSection>
                     <h2 style={{display:'none'}}>상품 기본정보</h2>
                     <S.ProductDetailSection>
