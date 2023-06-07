@@ -70,12 +70,13 @@
 <img width="724" alt="스크린샷 2023-06-07 오후 6 02 54" src="https://github.com/wonny-won/plugoAssignment/assets/97152701/be129cae-ee18-4497-82e7-433481b74af6">
 
 1. **상품 디테일 페이지**
-- 비회원 장바구니에 담기기능 (localStorage 사용)
+- 비회원 장바구니 기능 (localStorage 사용)
 
 <img width="869" alt="스크린샷 2023-06-07 오후 6 03 23" src="https://github.com/wonny-won/plugoAssignment/assets/97152701/14fad24a-af01-4f46-a57e-f438463ee0e0">
 
 1. **장바구니 페이지**
 - 장바구니에서 삭제하기 기능
+- 내가 담은 상품 목록 조회
 
 <img width="836" alt="스크린샷 2023-06-07 오후 6 03 45" src="https://github.com/wonny-won/plugoAssignment/assets/97152701/77ef9681-e8d2-4380-969f-0897fd8453c2">
 
